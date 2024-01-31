@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1706615070459,
+      "tag": "0000_normal_peter_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1706703244025,
+      "tag": "0001_neat_ultron",
+      "breakpoints": true
+    }
+  ]
+}

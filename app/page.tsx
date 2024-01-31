@@ -29,7 +29,7 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start p-24">
-      {session && session.user?.image && (
+      {session.user?.image && (
         <Image
           src={session.user.image}
           width={200}
@@ -37,9 +37,7 @@ export default async function Home() {
           alt="user image"
         />
       )}
-      <pre>
-        <code>{JSON.stringify(session, null, 2)}</code>
-      </pre>
+
       <Link
         href="/api/auth/signout"
         className="border-white rounded-md px-3 py-2 bg-slate-900 text-lg"
