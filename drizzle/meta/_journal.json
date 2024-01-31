@@ -15,6 +15,13 @@
       "when": 1706703244025,
       "tag": "0001_neat_ultron",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1706711419437,
+      "tag": "0002_public_lockheed",
+      "breakpoints": true
     }
   ]
 }

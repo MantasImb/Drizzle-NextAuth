@@ -14,7 +14,7 @@ export const users = pgTable("user", {
   emailVerified: timestamp("emailVerified", { mode: "date" }),
   image: text("image"),
   created_at: timestamp("created_at").defaultNow(),
-  click_count: integer("click_count").default(0),
+  click_count: integer("click_count").default(0).notNull(),
   last_click_at: timestamp("last_click_at"),
 });
 

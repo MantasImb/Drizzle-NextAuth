@@ -1,0 +1,1 @@
+ALTER TABLE "user" ALTER COLUMN "click_count" SET NOT NULL;

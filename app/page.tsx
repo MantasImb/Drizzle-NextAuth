@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { auth } from "@/app/auth";
 import { redirect } from "next/navigation";
+import Counter from "./components/counter";
 
 export default async function Home() {
   const session = await auth();
@@ -37,6 +38,8 @@ export default async function Home() {
           alt="user image"
         />
       )}
+
+      <Counter />
 
       <Link
         href="/api/auth/signout"
